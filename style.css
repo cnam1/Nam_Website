@@ -1,0 +1,225 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body, html{
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+} */
+
+/* header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 0px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+    padding-left: 1.5%;
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position:relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color:#333;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #333;
+    color: #fff;
+
+}
+
+header .navbar ul li ul{
+    position:absolute;
+    left:0 ;
+    display: none;
+    width:200px;
+    background:#fff
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1)
+}
+
+header .navbar ul li ul li ul{
+    left:200px;
+    top:0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display:initial;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media(max-width:991px){
+    
+    header{
+        padding:20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background: #fff;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+
+    }
+
+    header .navbar ul li{
+        width:100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: #eee;
+    }
+
+    header .navbar ul li ul li{
+        width: 100%;
+        left: 0;
+        /* display: none; */
+    /* }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+
+    }
+} */ 
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    position:relative;
+    /* opacity:0.9; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url('DSC7799-NorthHarborTower-700k.jpg');
+    min-height:100%;
+}
+
+.pimg2{
+    background-image:url('final-1.5m-s.jpg');
+    min-height:400px;
+}
+
+.pimg3{
+    background-image:url('_MG_2795-1.4m.jpg');
+    min-height:400px;
+}
+
+.pimg4{
+    background-image:url('IMG_2512-1m.jpg');
+    min-height:400px;
+}
+
+.pimg5{
+    background-image:url('research4.jpg');
+    min-height:400px;
+}
+
+.section-work{
+    text-align: center;
+    padding:50px
+}
+
+.section-workanchor{
+    text-align: center;
+    padding:85px;
+    color: #fff;
+}
+
+.section-bar{
+    padding:92px;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+/* .ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+} */
+
+.button{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border-welcome{
+    background-color: transparent;
+    color:#fff;
+}
+
+footer {
+    padding: 3%;
+    text-align: center;
+  }
