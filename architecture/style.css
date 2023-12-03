@@ -1,8 +1,3 @@
-/* .title{
-    align-items: center;
-    margin-top: 8%;
-} */
-
 .section-title{
 margin-top: 7rem;
 margin-bottom: 2rem;
@@ -30,7 +25,8 @@ main {
   .section-title {
     text-align: center;
     padding: 0 0 1rem 0;
-    font-size: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
   }
 
 .grid-gallery{
@@ -41,9 +37,9 @@ main {
     /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
     grid-template-columns: 1fr 1fr;
     gap: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3.5%;
 }
 
 .card{
@@ -51,18 +47,25 @@ main {
     aspect-ratio: 1/1;
 }
 
-.card__img{
+.card_img{
     display: block; /*remove img gap*/
     width: 100%;
     height: 100%;
-    object-fit: cover; /*helps it not stretch out*/
+    object-fit: cover;  /*helps it not stretch out */
+  
+    background: rgba(255, 255, 255, )
 }
 
-.card__overlay{
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
+.card_overlay{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
     
     position: absolute;
     top: 0;
@@ -75,6 +78,21 @@ main {
     transition: opacity .25s;
 }
 
-.card:hover .card__overlay{
+.card:hover .card_overlay{
     opacity: 1;
+}
+
+@media(max-width:991px){
+  .grid-gallery{
+    /* --spacing:1%; */
+    background-color: rgb(255, 255, 255);
+
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); */
+    grid-template-columns: 1fr;
+    gap: 1.2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+}
 }
