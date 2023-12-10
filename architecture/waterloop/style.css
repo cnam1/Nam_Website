@@ -1,0 +1,140 @@
+.section-title {
+  margin-top: 7rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 70rem;
+  /* padding: 0 2%; */
+}
+
+footer {
+  padding: 2%;
+  text-align: center;
+}
+
+.section-header {
+  position: absolute;
+  top: 2rem;
+  z-index: 2;
+  font-size: 1rem;
+  margin: 0 0 2rem 0;
+}
+
+.section-title {
+  text-align: center;
+  padding: 0 0 0 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.date {
+  text-align: center;
+  padding: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  /* margin-bottom: 2rem; */
+  color: #999;
+}
+
+.size {
+  text-align: center;
+  padding: 0 0 0.5rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #999;
+}
+
+.description {
+  text-align: left;
+  /* padding: 0 0 0.5rem 0; */
+  font-size: 1.2rem;
+
+  color: black;
+  max-width: 75ch;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  /* padding-left: 24%;
+  padding-right: 23%; */
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+.finalimg {
+  background-color: rgb(255, 255, 255);
+  /* display: grid;
+        grid-template-columns: 1fr; */
+  gap: 4vh;
+  /* gap problem */
+  /* padding-left: 25%;
+        padding-right: 25%; */
+  /* padding-bottom: 2%; */
+
+  display: block;
+  /*remove img gap*/
+  width: 100%;
+  /*helps it not stretch out */
+}
+
+.img {
+  position: relative;
+}
+
+.processimg1 {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4vh;
+  /* gap problem */
+  /* padding-bottom: 1%; */
+}
+
+.proto-arch {
+  display: block;
+  /*remove img gap*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*helps it not stretch out */
+  background: rgba(255, 255, 255, )
+}
+
+.processimg2 {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  /* gap problem */
+  padding-bottom: 2%;
+  /* max-width: 50rem; */
+  margin: 0 auto;
+  /* padding: 0 5%; */
+}
+
+.city-model {
+  display: block;
+  /*remove img gap*/
+  object-fit: contain;
+  width: 100%;
+  height: 55vmin;
+  /*helps it not stretch out */
+  /* background: rgba(0, 255, 255); */
+  padding-bottom: 10%;
+}
+
+/* @media(max-width:1280px) {
+  .description {
+    text-align: left;
+    padding: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+  }
+} */

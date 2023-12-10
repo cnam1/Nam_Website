@@ -1,0 +1,123 @@
+.section-title {
+    margin-top: 7rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 70rem;
+  }
+  
+  footer {
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .section-header {
+    position: absolute;
+    top: 2rem;
+    z-index: 2;
+    font-size: 1rem;
+    margin: 0 0 2rem 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding: 0 0 0 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+  .date {
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #999;
+  }
+  
+  .size {
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #999;
+  }
+  
+  .description {
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+    max-width: 75ch;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+  
+  .finalimg {
+    background-color: rgb(255, 255, 255);
+    gap: 4vh;
+    display: block;
+    width: 100%;
+  }
+  
+  .img {
+    position: relative;
+  }
+
+  .description2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+    max-width: 75ch;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    line-height: 1.5;
+  }
+  
+  .processimg1 {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+  }
+  
+  .concept {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: rgba(255, 255, 255);
+  }
+
+  .concept4 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: rgba(255, 255, 255, );
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .processimg2 {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2%;
+    margin: 0 auto;
+  }
+  
+  .city-model {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: 55vmin;
+    padding-bottom: 10%;
+  }
+  

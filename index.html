@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Test Website CN</title>
+  <link rel="stylesheet" href="library/lightbox2/dist/css/lightbox.css">
+<script src="library/lightbox2/dist/js/lightbox-plus-jquery.min.js" defer></script>
+  <title>Charlie Nam Website</title>
 </head>
 <body>
 
@@ -20,27 +22,29 @@
       <ul>
         <li><a href="#work-anchor">Work</a>
           <ul>
-            <li><a href="architecture/index.html">Architecture</a>
+            <li><a href="architecture">Architecture</a>
               <ul>
-                <li><a href="#">Water Loop</a></li>
-                <li><a href="#">Photographic Fiction</a></li>
-                <li><a href="#">Cafe</a></li>
-                <li><a href="#">Light Room</a></li>
+                <li><a href="architecture/waterloop">Water Loop</a></li>
+                <li><a href="architecture/photographicfiction">Photographic Fiction</a></li>
+                <li><a href="architecture/cafe">Cafe</a></li>
+                <li><a href="architecture/lightroom">Light Room</a></li>
               </ul>
             </li>
-            <li><a href="photography/index.html">Photography</a>
+            <li><a href="photography/">Photography</a>
               <ul>
-                <li><a href="#">Architecture Collage</a></li>
-                <li><a href="#">What You See</a></li>
-                <li><a href="#">Take to the Road</a></li>
-                <li><a href="#">Self-Portrait</a></li>
+                <li><a href="photography/architecturecollage">Architecture Collage</a></li>
+                <li><a href="photography/whatyousee">What You See</a></li>
+                <li><a href="photography/taketotheroadi/">Take to the Road</a></li>
+                <li><a href="photography/taketotheroadii/">Take to the Road</a></li>
+                <li><a href="">Self-Portrait</a></li>
                 <li><a href="#">The Orange Project</a></li>
                 <li><a href="#">Analog Hologram</a></li>
                 <li><a href="#">The Loop</a></li>
-                <li><a href="#">Mirage</a></li>
+                <li><a href="#">Mirage: Monochrome</a></li>
+                <li><a href="#">Mirage: Color</a></li>
               </ul>
             </li>
-            <li><a href="sculpture/index.html">Sculpture</a>
+            <li><a href="sculpture/">Sculpture</a>
               <ul>
                 <li><a href="#">Color Study</a></li>
                 <li><a href="#">Play</a></li>
@@ -50,7 +54,7 @@
                 <li><a href="#">Color Blocks</a></li>
               </ul>
             </li>
-            <li><a href="ptdw/index.html">Painting&Drawing</a>
+            <li><a href="ptdw/">Painting&Drawing</a>
               <ul>
                 <li><a href="#">Nostalgia</a></li>
                 <li><a href="#">City</a></li>
@@ -60,8 +64,8 @@
             </li>
           </ul>
         </li>  
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="about/">About</a></li>
+        <li><a href="contact/">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -128,6 +132,16 @@
 <footer>
   <p>Charlie Nam © 2023</p>
 </footer>
+
+<a href="DSC7799-NorthHarborTower-700k.jpg" data-lightbox="image-1" data-title="My caption">whatever</a>
+
+<script>
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'disableScrolling': true
+  })
+</script>
 
 </body>
 </html>

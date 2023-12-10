@@ -1,0 +1,26 @@
+.wysiwyg p{
+    padding-bottom: 30px;
+    font-weight: 350;
+}
+
+hr, p{
+    padding:0;
+
+}
+
+p{
+    margin:0;
+}
+
+*, :after, :before{
+    box-sizing: inherit;
+}
+
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
