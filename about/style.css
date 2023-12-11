@@ -59,6 +59,12 @@
     background: rgba(255, 255, 255, )
   }
 
+  .contact{
+    color: #888;
+    font-size: clamp(1rem, .5rem + 1vw, 1.2rem);
+    /* font-size: 1rem; */
+  }
+
   .description .resume{
     display: inline-block;
     padding: 10px 20px;
