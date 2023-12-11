@@ -6,7 +6,7 @@
     }
     
     main {
-        margin: 0 1rem;
+        margin: 0 auto;
         max-width: 70rem;
       }
       
@@ -47,13 +47,11 @@
         /* grid-template-columns: 1fr 1fr; */
         gap: 4vh; 
         /* gap problem */
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-bottom: 2%;
     }
 
     .grid-gallery2{
-      padding-top: 0;
+      padding-top: 3%;
+      padding-bottom: 3%;
     }
     
     .road_img{
@@ -92,8 +90,9 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 3vw;
-        padding-left: 10%;
-        padding-right: 10%;
+      }
+
+      .grid-gallery2{
         padding-bottom: 3%;
       }
     }

@@ -1,0 +1,114 @@
+.section-title{
+    margin-top: 7rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    main {
+        margin: 0 auto;
+        max-width: 70rem;
+      }
+      
+      footer {
+        padding: 2%;
+        text-align: center;
+      }
+      
+      .section-header {
+        position: absolute;
+        top: 2rem;
+        z-index: 2;
+        font-size: 1rem;
+        margin: 0 0 2rem 0;
+      }
+      
+      .section-title {
+        text-align: center;
+        padding: 0 0 0 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+      }
+
+      .date {
+        text-align: center;
+        padding: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        color: #999;
+      }
+    
+      .container {
+        width: 100%;
+        margin: 0 auto; 
+        padding-bottom: 3%;
+      }
+      
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+        grid-gap: 1.5vw; 
+      }
+      
+      .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; 
+      }
+      
+      .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 9;
+      }
+      
+      .gallery__item--2 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 5;
+      }
+      
+      .gallery__item--3 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 5;
+        grid-row-end: 9;
+      }
+
+      @media(max-width:991px){
+        /* .container {
+            width: 100%;
+            margin: 0 auto; 
+            padding-bottom: 3%;
+          }
+          
+          .gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1.5vw; 
+          }
+          
+          .gallery__img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block; 
+          }
+
+          .gallery__item--1, .gallery__item--2, .gallery__item--3{
+            grid-column: auto;
+            grid-row: auto;
+          } */
+
+          .gallery__img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block; 
+          }
+      }

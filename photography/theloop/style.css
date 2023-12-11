@@ -1,0 +1,86 @@
+.section-title{
+    margin-top: 7rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    main {
+        margin: 0 auto;
+        max-width: 70rem;
+      }
+      
+      footer {
+        padding: 2%;
+        text-align: center;
+      }
+      
+      .section-header {
+        position: absolute;
+        top: 2rem;
+        z-index: 2;
+        font-size: 1rem;
+        margin: 0 0 2rem 0;
+      }
+      
+      .section-title {
+        text-align: center;
+        padding: 0 0 0 0;
+        font-size: 3rem;
+        text-transform: uppercase;
+      }
+
+      .date {
+        text-align: center;
+        padding: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        color: #999;
+      }
+
+      .description {
+        text-align: left;
+        font-size: 1.2rem;
+        color: black;
+        max-width: 75ch;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        line-height: 1.5;
+      }
+    
+
+    .grid-gallery2{
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3vh; 
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    
+    .small_img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        background: rgba(255, 255, 255, )
+    }
+
+    .img{
+        position: relative;
+    }
+    
+    @media(max-width:991px){
+      .grid-gallery2{
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3vw;
+        padding-top: 2.5%;
+        padding-bottom: 3%;
+      }
+
+    }
+

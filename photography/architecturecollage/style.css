@@ -6,7 +6,7 @@
     }
     
   main {
-    margin: 0 50%;
+    margin: 0 auto;
     max-width: 70rem;
   }
       
@@ -41,13 +41,13 @@
 
       .description {
         text-align: left;
-        padding: 0 0 0.5rem 0;
         font-size: 1.2rem;
-        margin-bottom: 2rem;
         color: black;
-        padding-left: 24%;
-        padding-right: 23%;
-        padding-bottom: 1%;
+        max-width: 75ch;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        line-height: 1.5;
       }
     
     .grid-gallery{
@@ -55,6 +55,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 2vw; 
+        width: 100%;
     }
     
     .collage{
@@ -86,7 +87,7 @@
       grid-template-columns: repeat(3, 1fr);
     } */
     
-    @media(max-width:991px){
+    /* @media(max-width:991px){
       .grid-gallery{
         background-color: rgb(255, 255, 255);
         display: grid;
@@ -109,4 +110,4 @@
             padding-right: 10%;
             padding-bottom: 2%;
           }
-    }
+    } */
