@@ -95,6 +95,11 @@ header label{
     display: none;
 }
 
+footer {
+    padding: 3%;
+    text-align: center;
+  }
+
 
 
 

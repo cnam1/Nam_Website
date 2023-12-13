@@ -26,26 +26,24 @@ footer {
 
 .section-title {
   text-align: center;
-  padding: 0 0 0 0;
   font-size: 3rem;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .date {
   text-align: center;
   padding: 0 0 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  /* margin-bottom: 2rem; */
   color: #999;
 }
 
 .size {
   text-align: center;
-  padding: 0 0 0.5rem 0;
   font-size: 1rem;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #999;
 }
 
