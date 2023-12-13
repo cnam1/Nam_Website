@@ -35,7 +35,6 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1.5vw;
-      padding-bottom: 3%;
   }
   
   .card{
@@ -86,6 +85,5 @@
       gap: 4.5vw;
       margin-left: 4.5%;
       margin-right: 4.5%;
-      padding-bottom: 4.5%;
   }
   }

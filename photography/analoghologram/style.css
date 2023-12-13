@@ -28,6 +28,7 @@
     padding: 0 0 0 0;
     font-size: 3rem;
     text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   
   .date {
@@ -41,7 +42,7 @@
   .size {
     text-align: center;
     padding: 0 0 0.5rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     /* text-transform: uppercase; */
     margin-bottom: 2rem;
     color: #999;

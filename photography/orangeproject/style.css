@@ -28,6 +28,7 @@
         padding: 0 0 0 0;
         font-size: 3rem;
         text-transform: uppercase;
+        margin-bottom: 1rem;
       }
 
       .date {
@@ -42,7 +43,7 @@
       .container {
         width: 100%;
         margin: 0 auto; 
-        padding-bottom: 3%;
+        /* padding-bottom: 3%; */
       }
       
       .gallery {

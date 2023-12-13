@@ -28,14 +28,15 @@
     padding: 0 0 0 0;
     font-size: 3rem;
     text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   
   .date {
     text-align: center;
-    padding: 0 0 0.5rem 0;
     font-size: 1.2rem;
     text-transform: uppercase;
     color: #999;
+    margin-bottom: 1rem;
   }
   
   .size {
@@ -92,8 +93,4 @@
     height: 100%;
     object-fit: cover;
     background: rgba(255, 255, 255);
-  }
-
-  .series3{
-    padding-bottom: 3%;
   }

@@ -34,14 +34,14 @@ footer {
 .date {
   text-align: center;
   padding: 0 0 0.5rem 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #999;
 }
 
 .size {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
   color: #999;
@@ -121,7 +121,6 @@ footer {
   height: 55vmin;
   /*helps it not stretch out */
   /* background: rgba(0, 255, 255); */
-  padding-bottom: 10%;
 }
 
 /* @media(max-width:1280px) {

@@ -28,6 +28,7 @@
         padding: 0 0 0 0;
         font-size: 3rem;
         text-transform: uppercase;
+        margin-bottom: 1rem;
       }
 
       .date {
@@ -51,7 +52,7 @@
 
     .grid-gallery2{
       padding-top: 3%;
-      padding-bottom: 3%;
+      /* padding-bottom: 3%; */
     }
     
     .road_img{
@@ -92,7 +93,4 @@
         gap: 3vw;
       }
 
-      .grid-gallery2{
-        padding-bottom: 3%;
-      }
     }
